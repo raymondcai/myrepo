@@ -1,24 +1,3 @@
-#!/bin/bash
-#
-# rsyslog        Startup script for rsyslog.
-#
-# chkconfig: 2345 12 88
-# description: Syslog is the facility by which many daemons use to log \
-# messages to various system log files.  It is a good idea to always \
-# run rsyslog.
-### BEGIN INIT INFO
-# Provides: $syslog
-# Required-Start: $local_fs
-# Required-Stop: $local_fs
-# Default-Start:  2 3 4 5
-# Default-Stop: 0 1 6
-# Short-Description: Enhanced system logging and kernel message trapping daemons
-# Description: Rsyslog is an enhanced multi-threaded syslogd supporting, 
-#              among others, MySQL, syslog/tcp, RFC 3195, permitted 
-#              sender lists, filtering on any message part, and fine 
-#              grain output format control.
-### END INIT INFO
-
 # Source function library.
 . /etc/init.d/functions
 
